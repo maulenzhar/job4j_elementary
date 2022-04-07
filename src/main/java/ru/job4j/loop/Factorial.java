@@ -13,6 +13,5 @@ public class Factorial {
         System.out.println(Factorial.calc(5));
         System.out.println(Factorial.calc(3));
         System.out.println(Factorial.calc(4));
-        System.out.println(Factorial.calc(0));
     }
 }
