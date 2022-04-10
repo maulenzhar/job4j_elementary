@@ -9,6 +9,7 @@ public class PrintEvenElements {
                 res += numbers[numbers.length - 1 - i] + ln;
             }
         }
+
         return res;
     }
 }
