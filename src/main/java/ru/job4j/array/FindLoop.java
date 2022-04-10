@@ -22,9 +22,4 @@ public class FindLoop {
         }
         return rst;
     }
-
-    public static void main(String[] args) {
-        int[] data = {5, 4, 3, 2};
-        System.out.println(FindLoop.indexOf(data, 1));
-    }
 }
