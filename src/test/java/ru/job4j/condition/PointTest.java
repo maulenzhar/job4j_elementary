@@ -43,4 +43,19 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
+    @Test
+    public void when234to345then1dot73() {
+        double expected = 1.73;
+        int x1 = 2;
+        int y1 = 3;
+        int z1 = 4;
+        int x2 = 3;
+        int y2 = 4;
+        int z2 = 5;
+        Point a = new Point(x2, y2, z2);
+        Point b = new Point(x1, y1, z1);
+        double dist = a.distance3d(b);
+        Assert.assertEquals(expected, dist, 0.01);
+    }
 }
